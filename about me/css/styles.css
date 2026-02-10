@@ -1,0 +1,31 @@
+img{
+    width: 50%;
+}
+body{
+    text-align: center;
+}
+nav{
+    padding: 0px 50px;
+}
+section{
+    background-color: blue;
+    height: 100px;
+    width: 60%;
+    margin: auto;
+
+}
+p{
+    float: left;
+    padding: 0 15px;
+    width: 40%;
+}
+nav{
+    border: solid black;
+    background-color: rgb(255, 147, 84);
+}
+a{
+    padding: 0 100px;
+}
+a:hover{
+    background-color: blue;
+}

@@ -1,0 +1,10 @@
+table, th, td, tr {
+    border: 3px dotted chartreuse;
+
+}
+table {
+    background-color: #e491a6
+}
+th{
+    background-color: #007ba7;
+}

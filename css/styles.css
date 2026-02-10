@@ -1,0 +1,40 @@
+div {
+    background-color: rgb(97, 177, 222);
+    border: solid;
+    margin-bottom: 25px;
+}
+body {
+    width: 1366px;
+    height: 738px;
+    background-color: rgb(179, 179, 34);
+}
+h1{
+    background-color: rgb(121, 133, 184);
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    background-color: rgb(109, 139, 177);
+    text-align: center;
+    margin: 0px;
+}
+ol{
+    background-color: rgb(95, 138, 178);
+    width: 50%;
+    margin: auto;
+}
+hr {
+    width: 50%;
+}
+a{
+    background-color: rgb(87, 133, 159);;
+    padding: 0px 150px;
+}
+a:hover{
+    background-color: aliceblue;
+}
+#section{
+    height: 600px;
+    width: 700px;
+margin: auto;
+}

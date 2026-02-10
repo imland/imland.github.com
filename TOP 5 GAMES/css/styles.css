@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(147, 116, 209);
+    border: dotted;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    background-color: rgb(147, 116, 209);
+    border: dotted;
+    margin: auto;
+    text-align: center;
+}
+img{
+    margin: auto;
+    height: 350px;
+    width: 350px;
+}
+p{
+    padding-left: 50%;
+}
