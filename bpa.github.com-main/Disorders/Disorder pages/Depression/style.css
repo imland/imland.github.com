@@ -1,0 +1,61 @@
+H1{
+    text-align: center;
+    background-color: rgb(45, 37, 37);
+    width: 60%;
+    margin: auto;
+    
+}
+h3{
+width: 60%;
+margin: auto;
+text-align: center;
+background-color: rgb(36, 29, 59);
+}
+img{
+width: 60%;
+
+}
+
+p{
+
+text-align: center;
+    width: 60%;
+    margin: auto;
+background-color: rgb(18, 14, 43);
+height: 100px;
+color: white;
+}
+h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+background-color: rgb(72, 71, 82);
+height: 100px;
+color: white;
+height: 20px;
+}
+h2 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+background-color: rgb(72, 71, 82);
+height: 100px;
+color: white;
+height: 20px;
+}
+
+hr{
+width: 60%;
+margin: auto;
+border-radius: 10px;
+}
+body{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+nav a:hover{
+    background-color: rgb(57, 21, 20);
+}

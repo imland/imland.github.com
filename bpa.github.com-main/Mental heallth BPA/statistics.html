@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset=“utf-8"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title></title>
+       <link rel="stylesheet" href="css/styles.css">
+       <style>
+        
+        body{
+        font-family:sans-serif
+    }
+    #container{
+        background:#eee;
+        height: 400px;
+        width:500px;
+        margin:auto;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    #carousel-track{
+        border:1px solid red;
+        width:250px;
+        height:250px;
+        white-space: nowrap; /* Prevents wrapping */
+        overflow:hidden;
+        font-size:0px;
+    }
+    .carousel-item{
+        height:250px;
+        width:250px;
+        background:#333;
+
+        display:inline-block;   
+        color:#FFF;
+        font-size:16px;
+        margin-right:6px;
+
+        transition: transform 0.3s ease;
+    }
+       </style>
+   </head>
+   <body>
+    
+    <div class="a">
+           <img class="a" src="Mentalimages/mentally-real.png">
+           <h1 class="top">Welcome to The Statistics </h1>
+           <button>Learn More</button>
+           <button>Help</button>
+         </div>
+         <hr>
+         <div class="b">
+           <ul>
+           <nav>
+<li><a href="Disorders/index.html">List of Disorders</a></li>
+          <li><a href="Mental heallth BPA/Crisis.html">Assistance</a></li>
+          <li><a href="HomeMental.html">Home</a></li>
+          <li><a  href="Mental heallth BPA/statistics.html">Statistics</a></li>
+          <li><a href="MentalBlog.html">Blog</a></li>
+          <li><a href="Disorders/Disorder pages/GAD/index.html">Generalized Anxiety Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/Depression/index.html">Depression</a></li>
+          <li><a href="Disorders/Disorder pages/Bipolar disorder/index.html">Bipolar Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/Schizophrenia/index.html">Schizophrenia</a></li>
+          <li><a href="Disorders/Disorder pages/OCD/index.html">Obsessive-Compulsive Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/PTSD/index.html">Post-Traumatic Stress Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/BPD/index.html">Borderline Personality Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/ADHD/index.html">Attention-Deficit/Hyperactivity Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/Autism/index.html">Autism Spectrum Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/Anorexia Nervosa/index.html">Anorexia Nervose</a></li>
+          <li><a href="Disorders/Disorder pages/Panic-disorder/index.html">Panic Disorder</a></li>
+          <li><a href="Disorders/Disorder pages/Substance-Use-Disorder/index.html">Substance Use Disorders</a></li>
+           </nav>
+           </ul>
+         </div>
+       
+         <div class="c">
+         <h1 style="text-decoration:underline">Welcome to the Informational Part. Here, you can look at statistics and more!</h1>
+         </div>
+         <div class="d">
+           <h2 style="color:white; text-align:center; text-decoration:underline;"> Depression Percentages:</h2>
+           <h3 style="color:white; text-align:center;"></h3>
+          </div>
+          <div id="container">
+            <button onclick="moveCarousel('backward')"><</button>
+            <div id="carousel-track">
+                <div class="carousel-item"><img src="https://www.cdc.gov/nchs/images/databriefs/351-400/db379-fig1.png" alt=""></div>
+                <div class="carousel-item"><img src="https://media.licdn.com/dms/image/v2/D4E12AQFuDf1bZcV4Ig/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1687250239411?e=2147483647&v=beta&t=0XZ08kD5QFE2eg-WYKmpysNp0yIP65dtD_wdsrgxPy0" alt=""></div>
+                <div class="carousel-item"><img src="https://www.cdc.gov/nchs/images/databriefs/201-250/db215_fig1.png" alt=""></div>
+                <div class="carousel-item"><img src="https://www.google.com/imgres?q=ADHD%20bar%20graph&imgurl=https%3A%2F%2Farchive.cdc.gov%2Fwww_cdc_gov%2Fncbddd%2Fadhd%2Ffeatures%2Fadhd-data-graph-longdesc_html_files%2Fadhd-medication-treatment-estimates-behavioral-therapy.jpg&imgrefurl=https%3A%2F%2Farchive.cdc.gov%2Fwww_cdc_gov%2Fncbddd%2Fadhd%2Ffeatures%2Fadhd-data-graph-longdesc.html&docid=22ytQUUxry2dMM&tbnid=KZ-PIoGNpcyD_M&vet=12ahUKEwjfpqaz7cCTAxWmkWoFHUkEDXwQnPAOegQIHBAB..i&w=695&h=373&hcb=2&ved=2ahUKEwjfpqaz7cCTAxWmkWoFHUkEDXwQnPAOegQIHBAB" alt=""></div>
+            </div>
+            <button onclick="moveCarousel('forward')">></button>
+        </div>
+          <div class="dd">
+           <h3 style="color:white;">o</h3>
+         </div>
+         <div class="d">
+           <h2 style="color:white; text-align:center; text-decoration:underline;"> 
+          </h2>
+           <h3 style="color:white; text-align:center;">
+            More than 1 billion people are living with mental health disorders, according to new data released by the World Health Organization (WHO), with conditions such as anxiety and depression inflicting immense human and economic tolls. While many countries have bolstered their mental health policies and programmes, greater investment and action are needed globally to scale up services to protect and promote people’s mental health.
+
+
+     Research shows that mental illnesses are common in the United States, affecting tens of millions of people each year. Estimates suggest that only half of people with mental illnesses receive treatment. The information on these pages includes currently available statistics on the prevalence and treatment of mental illnesses among the U.S. population. In addition, information is provided about possible consequences of mental illnesses, such as suicide and disability.
+     In 2023, the suicide rate among males was nearly 4 times higher (22.8 per 100,000) than among females (5.9 per 100,000).
+
+</h3>
+         </div>
+          <script>
+          var position = 0;
+
+function moveCarousel(direction) {
+    if(direction=='forward'){
+        if(position==3){
+            return false;
+        }
+        position++;
+    }
+    else if(direction=='backward'){
+        if(position==0){
+            return false;
+        }
+        position--;
+    }
+
+    const offset = 180 * position;
+    document.querySelectorAll('.carousel-item').forEach(carouselItemElement =>{
+        carouselItemElement.style.transform = `translateX(-${offset}px)`;
+    })
+}
+          </script>
+        </body>
+</html>
+
